@@ -29,7 +29,7 @@ class CompanyController extends Controller
     {
         //display add / create form
         // $pages = 'employee';
-         //pluck buat pilih manual row
+        //pluck buat pilih manual row
         return view('company.addCompany');
     }
 
@@ -67,7 +67,7 @@ class CompanyController extends Controller
     {
         //display edit form based on event id
         
-        return view('company.editCompany');
+        return view('company.editCompany', compact('company'));
     }
 
     /**

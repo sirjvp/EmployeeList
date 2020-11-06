@@ -2,7 +2,7 @@
 @section('content')
 <div class="container" style="margin-top: 20px;">
 <div class="row">
-        <h1 class="col">Add Student Data</h1>
+        <h1 class="col">Add Employee Data</h1>
     </div>
     <div class="row">
         <div class="col">
